@@ -1,4 +1,4 @@
-package com.misha.config;
+package com.startupApp.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -8,7 +8,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.misha")
+@ComponentScan("com.startupApp")
 public class WebConfig {
     @Bean
     InternalResourceViewResolver viewResolver(){

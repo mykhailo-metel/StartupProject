@@ -1,4 +1,4 @@
-package com.misha.config;
+package com.startupApp.config;
 
 import org.springframework.context.annotation.Configuration;
 
